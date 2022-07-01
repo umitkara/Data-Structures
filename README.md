@@ -98,7 +98,7 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
     Date and time data type is a data type that stores date and time values.
 
-    The date and time data type is used to store a range of values from January 1, 0001 to December 31, 9999.
+    The date and time data type is used to store a range of values from January 1, 1970 to December 31, 9999.
 
     It also has the ability to store fractional seconds for the end of each day.
 
