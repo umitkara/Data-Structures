@@ -116,13 +116,15 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
     Also array elements stored in memory in **contiguous memory locations**. This means that the elements are stored in order and there is no gap between them.
 
-    An array could be `static` or `dynamic`. *Static* arrays are created at compile time and *dynamic* arrays are created at run time. Difference between *static* and *dynamic* arrays is that *static* arrays could store fixed number of elements and *dynamic* arrays could store unlimited number of elements. But each time the *dynamic* array reached its maximum capacity, a new memory location is allocated to store the new elements and all the old elements are copied to the new memory location.
+    An array could be `static` or `dynamic`. *Static* arrays are created at compile time and *dynamic* arrays are created at run time. Difference between *static* and *dynamic* arrays is that *static* arrays could store fixed number of elements and *dynamic* arrays could store unlimited number of elements theoroticly. But each time the *dynamic* array reached its maximum capacity, a new memory location is allocated to store the new elements and all the old elements are copied to the new memory location.
 
 - **Structure (Record)**:
 
     A record, structure or struct for short is a collection of data that is used to store data. Record is a collection of fields, possibly of different data types, typically in a fixed number and sequence.
 
     The fields of a record are called members and the members are accessed by name.
+
+    Size of the memory block that stores the record is the **sum of the sizes of all the members**.
 
 - **Union**:
 
@@ -135,6 +137,8 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
     Once a new value is assigned to a field, the existing data is overwritten with the new data. 
     
     The memory area storing the value has no intrinsic type, but the value can be treated as one of several abstract data types, having the type of the value that was last written to the memory area.
+
+    Size of the memory block that stores the union is the size of the **largest member**.
 
 ### Abstract Data Types
 
@@ -227,7 +231,7 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
     A double-ended queue or *deque* is a data type that can store a collection of data in a linear order.
 
-    It is a generalized for of the queue data type. It allows adding and removing elements from both ends of the queue.
+    It is a generalization of the queue data type. It allows adding and removing elements from both ends of the queue.
 
 - **Graph**:
 
