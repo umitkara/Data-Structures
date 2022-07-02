@@ -10,13 +10,14 @@
     - [Composite or Non-Primitive Types](#composite-or-non-primitive-types)
     - [Abstract Data Types](#abstract-data-types)
   - [Linear Data Structures](#linear-data-structures)
+    - [Arrays](#arrays)
 
 
 ## Preface
 
 This is a cheat-sheat for data structures. I made this for my personal curiosity and usage. I don't know if it's useful for anyone else. All of the data structure and order is taken from [this](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia article about data structures. 
 
-I added some short definitions about all of them. I did this to see all data structures in one place and quickly look-up.
+I added some short definitions about all of them. *I want to add images and code sniplets* to advance the intelligibility. I did this to see all data structures in one place and quickly look-up.
 
 Most of the data strucures and algorithms textbooks cover basic data structures and their implementations. Also some books cover great amount of them indepth. Here are my favorites:
 
@@ -104,7 +105,7 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
 ### Composite or Non-Primitive Types
 
-- **Array**:
+- **Array**<a id="array" name="array"></a>:
 
     An array is a data type that can store a collection of data.
     
@@ -112,10 +113,12 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
     The index of an element in an array is called its position.
 
-    The index of the first element in an array could be 0 or 1 and the type of the elements must ot must be the same based on the language.
+    The index of the first element in an array could be 0 or 1, and the type of the elements must ot mustn't be the same based on the language.
 
-    Also array elements stored in memory in **contiguous memory locations**. This means that the elements are stored in order and there is no gap between them.
-
+    Also array elements stored in the memory in **contiguous memory locations**. This means that the elements are stored in order and there is no gap between them.
+    
+    <a id="dynamic-array" name="dynamic-array"></a>
+    
     An array could be `static` or `dynamic`. *Static* arrays are created at compile time and *dynamic* arrays are created at run time. Difference between *static* and *dynamic* arrays is that *static* arrays could store fixed number of elements and *dynamic* arrays could store unlimited number of elements theoroticly. But each time the *dynamic* array reached its maximum capacity, a new memory location is allocated to store the new elements and all the old elements are copied to the new memory location.
 
 - **Structure (Record)**:
@@ -244,3 +247,91 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
     where V is the set of vertices and E is the set of edges.
 
 ## Linear Data Structures
+
+A data structure said to be linear if its elements are stored in a sequential order.
+
+### Arrays
+
+- **Array**:
+
+    Go to the [Array](#array) section.
+
+- **Bit Array**:
+
+    A bit array, bit map, bit set, bit string or bit vector is an array that compacly stores a set of bits.
+
+- **Bit Field**:
+
+    A bit field is an array of bits that each bit or group of bits has a specific purpose. A bit field is used to store data in a compact way.
+
+    The most known bit field is the flag registers in the CPU.
+
+- **Bitboard**:
+  
+    A bitboard is a special type of bit array that used in games like chess. Bitboard represents the game board where each bit represents a square or a piece. This allows parallel bitwise operations to set or query the game state, or determine moves or plays in the game.
+
+- **Bitmap**:
+
+    A bitmap is a bit array that is used to store a set of bits. It is a representation in which each item corresponds to one or more bits of information, especially the information used to control the display of a computer screen.
+
+- **Circular Buffer**:
+  
+    A circular buffer, circular queue, cyclic buffer or ring buffer is uses a single, fixed-size buffer(temprory memorry area) as if it were connected end-to-end.
+
+    It is a **FIFO** data structure that is full when the last element is inserted and the first element is removed.
+
+- **Control Table**:
+
+    *TODO*
+
+- **Image**:
+  
+    *TODO*
+
+- **Dope Vector**:
+
+    Dope vector is a data structure to store information about a set of objects. It is commonly used by compilers to store metadata about the objects such as arrays like length, type and capacity.
+
+    Dope vectors help compilers to access the arrays with ease.
+
+    Different controls such as out of bound and insertion type made thanks to dope vectors.
+
+- **Dynamic Array**:
+
+    Dynamic array, growable array, resizable array, dynamic table, mutable array, or array list. Go to the [Dynamic Array](#dynamic-array) section.
+
+- **Gap Buffer**:
+
+    *TODO*
+
+- **Hashed Array Tree**:
+
+    *TODO*
+
+- **Lookup Table**:
+
+    *TODO*
+
+- **Matrix**:
+
+    *TODO*
+
+- **Parallel Array**:
+
+    *TODO*
+
+- **Sorted Array**:
+
+    *TODO*
+
+- **Sparse Matrix**:
+
+    *TODO*
+
+- **Iliffe Vector**:
+
+    *TODO*
+
+- **Variable-length Array**:
+
+    *TODO*
