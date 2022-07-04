@@ -11,6 +11,7 @@
     - [Abstract Data Types](#abstract-data-types)
   - [Linear Data Structures](#linear-data-structures)
     - [Arrays](#arrays)
+    - [Lists](#lists)
 
 
 ## Preface
@@ -282,7 +283,7 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Control Table**:
 
-    *TODO*
+    A control table is a data structure that is used to control flow of programs.
 
 - **Image**:
   
@@ -302,36 +303,96 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Gap Buffer**:
 
-    *TODO*
+    A gap buffer is a dynamic array that allows efficient insertion and deletion operations at clustered near the same location.
+
+    Gap buffers are mostly used in text editors; because most of the time changes are made near the same location.
 
 - **Hashed Array Tree**:
 
-    *TODO*
+    A hashed array tree (HAT) is a dynamic data structure that uses a hashing algorithm to organize data in a tree-like structure. The data is organized into buckets, and each bucket is hashed using the hashing algorithm. The buckets are then linked together using the hash values of the buckets. The tree structure is then traversed to retrieve the data in the buckets.
 
 - **Lookup Table**:
 
-    *TODO*
+    A lookup table (LUT) is an array that replaces runtime computation with a simpler array indexing operation. It is used to store data in a compact way.
 
 - **Matrix**:
 
-    *TODO*
+    A matrix is a data structure that is used to store data in a two-dimensional array.
 
 - **Parallel Array**:
 
-    *TODO*
+    Parralel arrays is a form of implicit data structure that uses multiple arrays to represent a singular array of records. It is used to store data in a compact way. It is a primitive way to represent 2-dimensional table-like data.
 
 - **Sorted Array**:
 
-    *TODO*
+    A sorted array is an array data structure that is used to store data in a sorted order. 
 
 - **Sparse Matrix**:
 
-    *TODO*
+    A sparse matrix or sparse array is an array data structure which most of it's elements are zero.
 
 - **Iliffe Vector**:
 
-    *TODO*
+    An lliffe vector data structure is a two-dimensional array of integers, typically used for storing multi-dimensional vectors. The structure is named after its creator, John L. Liffe.
 
 - **Variable-length Array**:
+
+    A variable-length, variable-sized or runtime-sized, array is a data structure whose size is determined at runtime.
+
+### Lists
+
+- **Doubly linked list**
+
+    *TODO*
+
+- **Array list**
+
+    *TODO*
+
+- **Linked list**
+
+    *TODO*
+
+- **Association list**
+
+    *TODO*
+
+- **Self-organizing list**
+
+    *TODO*
+
+- **Skip list**
+
+    *TODO*
+
+- **Unrolled linked list**
+
+    *TODO*
+
+- **VList**
+
+    *TODO*
+
+- **Conc-tree list**
+
+    *TODO*
+
+- **Xor linked list**
+
+    *TODO*
+
+- **Zipper**
+
+    *TODO*
+
+- **Doubly connected edge list also known as half-edge**
+
+    *TODO*
+
+- **Difference list**
+
+    *TODO*
+
+- **Free list**
 
     *TODO*
