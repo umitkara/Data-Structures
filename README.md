@@ -16,7 +16,7 @@
 
 ## Preface
 
-This is a cheat-sheat for data structures. I made this for my personal curiosity and usage. I don't know if it's useful for anyone else. All of the data structure and order is taken from [this](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia article about data structures. 
+This is a cheet-sheat for data structures. I made this for my personal curiosity and usage. I don't know if it's useful for anyone else. All of the data structure and order is taken from [this](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia article about data structures. 
 
 I added some short definitions about all of them. *I want to add images and code sniplets* to advance the intelligibility. I did this to see all data structures in one place and quickly look-up.
 
@@ -118,7 +118,7 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
     Also array elements stored in the memory in **contiguous memory locations**. This means that the elements are stored in order and there is no gap between them.
     
-    <a id="dynamic-array" name="dynamic-array"></a>
+    
     
     An array could be `static` or `dynamic`. *Static* arrays are created at compile time and *dynamic* arrays are created at run time. Difference between *static* and *dynamic* arrays is that *static* arrays could store fixed number of elements and *dynamic* arrays could store unlimited number of elements theoroticly. But each time the *dynamic* array reached its maximum capacity, a new memory location is allocated to store the new elements and all the old elements are copied to the new memory location.
 
@@ -297,9 +297,9 @@ A data structure said to be linear if its elements are stored in a sequential or
 
     Different controls such as out of bound and insertion type made thanks to dope vectors.
 
-- **Dynamic Array**:
+- **Dynamic Array**:<a id="dynamic-array" name="dynamic-array"></a>
 
-    Dynamic array, growable array, resizable array, dynamic table, mutable array, or array list. Go to the [Dynamic Array](#dynamic-array) section.
+    Dynamic array, growable array, resizable array, dynamic table, mutable array, or array list. A dynamic array data structure is a data structure that allows the elements of the structure to be dynamically allocated and deallocated. This allows the structure to be used as an array, without the need to allocate and deallocate memory blocks.
 
 - **Gap Buffer**:
 
@@ -341,58 +341,73 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 ### Lists
 
-- **Doubly linked list**
+- **Linked List**
 
-    *TODO*
+    Linked list data structure is a lineer data structure as like an array. But the main difference is that the elements are not stored in a contiguous block of memory. Instead, each element is stored as a separate node. Each node has capability to store data and a memeroy location(reference or pointer) that points to the next node.
+    With this way a linear order is maintained.
 
-- **Array list**
+    Linked list ara dynamic data structures beacouse of their nature. Their size is not fixed. Therotically, the size of a linked list can be infinite.
 
-    *TODO*
+    The first node is pointed to by the *head* and the last node is pointed to by the *tail* or *rear*.
 
-- **Linked list**
+- **Doubly Linked List**
 
-    *TODO*
+    A doubly linked list is a data structure that allows two nodes to be linked together by a pointer, called a head pointer. Nodes at the front of the list are called the head node and nodes at the back are called the tail node. The pointer at the head of the list points to the next node in the list, and the pointer at the tail of the list points to the previous node in the list.
 
-- **Association list**
+    To add a new node to the list, we first create a pointer to the new node. We then set the head pointer to point to the new node and the tail pointer to point to the node after the new node. The new node is now linked into the list. To remove a node from the list, we first find the head pointer. We then set the head pointer to point to the node after the node to be removed and the tail pointer to point to the node before the node to be removed. The node to be removed is now removed from the list.
 
-    *TODO*
+- **Array List**
 
-- **Self-organizing list**
+    Also known as [Dynamic Array](#dynamic-array)
 
-    *TODO*
+- **Association List**
 
-- **Skip list**
+    An association list or alist is a linked list type data structure that each node contains a key and a value like a dictionary. The association list is said to associate the value with the key.
 
-    *TODO*
+    To find the value of a key, a sequential search is used. To add a new key-value pair, a new node is created and added to the end of the list. To remove a key-value pair, the node containing the key is removed from the list.
 
-- **Unrolled linked list**
+- **Self-organizing List**
 
-    *TODO*
+    Self-organizing list is a linked list type data structure that changes it's order based on some self-organizing heuristic to improve average access time. 
+
+    The aim of a self-organizing list is to improve efficiency of linear search by moving more frequently accessed items towards the head of the list.
+    
+    A self-organizing list achieves near constant time for element access in the best case. A self-organizing list uses a reorganizing algorithm to adapt to various query distributions at runtime.
+
+- **Skip List**
+
+    A skip list is a data structure that allows for fast search, insertion, and deletion of data in a sorted list. It is a type of linked list where each node contains a pointer to the next node in the list, as well as a pointer to the node that is two places ahead in the list. The skip list is a variation of the balanced binary search tree, which allows for O(log n) search time, where n is the number of nodes in the list.
+
+- **Unrolled Linked List**
+
+    Unrolled linked list is a variation on the linked list which stores multiple elements in each node. 
 
 - **VList**
 
-    *TODO*
+    VList is a persistent data structure that combines the fast indexing of arrays with the easy extension linked lists.
 
-- **Conc-tree list**
+    Like arrays, VLists have constant-time lookup on average and like linked lists they are persistent, and elements can be added to or removed from the front in constant time.
 
-    *TODO*
-
-- **Xor linked list**
+- **Conc-tree List**
 
     *TODO*
+
+- **Xor Linked List**
+
+    An XOR linked list data structure is a type of data structure that allows two nodes to be linked together by an XOR operator. The nodes in the XOR linked list are linked together by a pointer. The first node in the list is linked to the second node by a pointer that is set to the bitwise XOR of the second node's data and the first node's data. The second node is linked to the first node by a pointer that is set to the bitwise XOR of the first node's data and the second node's data.
 
 - **Zipper**
 
     *TODO*
 
-- **Doubly connected edge list also known as half-edge**
+- **Doubly Connected Edge List (Half-edge List)**
 
     *TODO*
 
-- **Difference list**
+- **Difference List**
 
     *TODO*
 
-- **Free list**
+- **Free List**
 
     *TODO*
