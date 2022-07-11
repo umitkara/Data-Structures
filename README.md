@@ -24,11 +24,11 @@
 
 ## Preface
 
-This is a cheet-sheat for data structures. I made this for my personal curiosity and usage. I don't know if it's useful for anyone else. All of the data structure and order is taken from [this](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia article about data structures. 
+This is a cheat-sheet for data structures. I made this for my personal curiosity and usage. I don't know if it's useful for anyone else. All of the data structure and order is taken from [this](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia article about data structures. 
 
 I added some short definitions about all of them. *I want to add images and code sniplets* to advance the intelligibility. I did this to see all data structures in one place and quickly look-up.
 
-Most of the data strucures and algorithms textbooks cover basic data structures and their implementations. Also some books cover great amount of them indepth. Here are my favorites:
+Most of the data structures and algorithms textbooks cover basic data structures and their implementations. Also some books cover great amount of them in-depth. Here are my favorites:
 
 - **Algorithms** by *Robert Sedgewick*, *Kevin Wayne*
 - **Algorithms in a Nutshell** by *George T. Heineman*, *Gary Pollice*, *Stanley Selkow*
@@ -41,7 +41,7 @@ Most of the data strucures and algorithms textbooks cover basic data structures 
 
 I hope you like these books and find them useful.
 
-Also i want to implement all of these data structures in several languages. But [The Algotihms](https://the-algorithms.com/) already covers all of them. So my purpose is to implement them for my own development. 
+Also i want to implement all of these data structures in several languages. But [The Algorithms](https://the-algorithms.com/) already covers all of them. So my purpose is to implement them for my own development. 
 
 I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you find any and add missing information.
 
@@ -158,7 +158,7 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
     A container or collection is a data type that can store a collection of data. 
 
-    - **Lineer Containers**:
+    - **Linear Containers**:
         - `List`
         - `Stack`
         - `Queue`
@@ -173,7 +173,7 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
 - **List**:
 
-    List or squence is a dynamic data type that can store a collection of data in a linear order.
+    List or sequence is a dynamic data type that can store a collection of data in a linear order.
 
     The elements of a list are called nodes and the nodes are linked together to form a chain.
 
@@ -208,7 +208,7 @@ I hope you find this cheat-sheet useful. Feel free to correct my mistakes if you
 
     A set is a data type that can store a collection of data in a unordered sequence that does **not allow duplicates**.
 
-    Some sets are desigend to be *static* or *frozen* and cannot be modified at runtime. Frozen sets are also called *immutable* sets and they only allow querying operations.
+    Some sets are designed to be *static* or *frozen* and cannot be modified at runtime. Frozen sets are also called *immutable* sets and they only allow querying operations.
 
     Other types of sets are called *dynamic* or *mutable* sets and they allow adding and removing elements.
 
@@ -267,7 +267,7 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Bit Array**:
 
-    A bit array, bit map, bit set, bit string or bit vector is an array that compacly stores a set of bits.
+    A bit array, bit map, bit set, bit string or bit vector is an array that compactly stores a set of bits.
 
 - **Bit Field**:
 
@@ -285,7 +285,7 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Circular Buffer**:
   
-    A circular buffer, circular queue, cyclic buffer or ring buffer is uses a single, fixed-size buffer(temprory memorry area) as if it were connected end-to-end.
+    A circular buffer, circular queue, cyclic buffer or ring buffer is uses a single, fixed-size buffer(temporary memory area) as if it were connected end-to-end.
 
     It is a **FIFO** data structure that is full when the last element is inserted and the first element is removed.
 
@@ -325,7 +325,7 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Parallel Array**:
 
-    Parralel arrays is a form of implicit data structure that uses multiple arrays to represent a singular array of records. It is used to store data in a compact way. It is a primitive way to represent 2-dimensional table-like data.
+    Parallel arrays is a form of implicit data structure that uses multiple arrays to represent a singular array of records. It is used to store data in a compact way. It is a primitive way to represent 2-dimensional table-like data.
 
 - **Sorted Array**:
 
@@ -347,10 +347,10 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Linked List**
 
-    Linked list data structure is a lineer data structure as like an array. But the main difference is that the elements are not stored in a contiguous block of memory. Instead, each element is stored as a separate node. Each node has capability to store data and a memeroy location(reference or pointer) that points to the next node.
+    Linked list data structure is a linear data structure as like an array. But the main difference is that the elements are not stored in a contiguous block of memory. Instead, each element is stored as a separate node. Each node has capability to store data and a memory location(reference or pointer) that points to the next node.
     With this way a linear order is maintained.
 
-    Linked list ara dynamic data structures beacouse of their nature. Their size is not fixed. Therotically, the size of a linked list can be infinite.
+    Linked list ara dynamic data structures because of their nature. Their size is not fixed. Theoretically, the size of a linked list can be infinite.
 
     The first node is pointed to by the *head* and the last node is pointed to by the *tail* or *rear*.
 
@@ -394,7 +394,7 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Conc-tree List**
 
-    A conc-tree is a list type data structure that provides amoritzed constant time append and prepend operations. It is prefered on fucntional and data oriented programming.
+    A conc-tree is a list type data structure that provides amortized constant time append and prepend operations. It is preferred on functional and data oriented programming.
 
 - **Xor Linked List**
 
