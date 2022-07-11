@@ -12,6 +12,14 @@
   - [Linear Data Structures](#linear-data-structures)
     - [Arrays](#arrays)
     - [Lists](#lists)
+  - [Tree Data Structures](#tree-data-structures)
+    - [Binary Trees](#binary-trees)
+    - [Balanced Trees (B-trees)](#balanced-trees-b-trees)
+    - [Heaps](#heaps)
+    - [Bit-slice Trees](#bit-slice-trees)
+    - [Multi-way Trees](#multi-way-trees)
+    - [Space-partitioning Trees](#space-partitioning-trees)
+    - [Application-specific Trees](#application-specific-trees)
 
 
 ## Preface
@@ -285,10 +293,6 @@ A data structure said to be linear if its elements are stored in a sequential or
 
     A control table is a data structure that is used to control flow of programs.
 
-- **Image**:
-  
-    *TODO*
-
 - **Dope Vector**:
 
     Dope vector is a data structure to store information about a set of objects. It is commonly used by compilers to store metadata about the objects such as arrays like length, type and capacity.
@@ -390,7 +394,7 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Conc-tree List**
 
-    *TODO*
+    A conc-tree is a list type data structure that provides amoritzed constant time append and prepend operations. It is prefered on fucntional and data oriented programming.
 
 - **Xor Linked List**
 
@@ -398,11 +402,11 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Zipper**
 
-    *TODO*
+    A zipper is a technique of representing an aggregate data structure so that it is convenient for writing programs that traverse the structure arbitrarily and update its contents. The zipper technique is general in the sense that it can be adapted to lists, trees, and other recursively defined data structures. Zippers are efficient when making (functional) changes to a data structure, where a new, slightly changed, data structure is returned from an edit operation (instead of making a change in the current data structure)
 
 - **Doubly Connected Edge List (Half-edge List)**
 
-    *TODO*
+    The doubly connected edge list (DCEL), also known as half-edge data structure, is a data structure to represent an embedding of a planar graph in the plane, and polytopes in 3D. This data structure provides efficient(quantify) manipulation of the topological information associated with the objects in question (vertices, edges, faces).
 
 - **Difference List**
 
@@ -410,4 +414,26 @@ A data structure said to be linear if its elements are stored in a sequential or
 
 - **Free List**
 
-    *TODO*
+    A free list is a data structure used in a scheme for dynamic memory allocation.
+
+    It operates by connecting unallocated regions of memory together in a linked list, using the first word of each unallocated region as a pointer to the next.
+
+    Free lists make the allocation and deallocation operations very simple.
+
+    To allocate a region, one would simply remove a single region from the end of the free list and use it.
+
+## Tree Data Structures
+
+### Binary Trees
+
+### Balanced Trees (B-trees)
+
+### Heaps
+
+### Bit-slice Trees
+
+### Multi-way Trees
+
+### Space-partitioning Trees
+
+### Application-specific Trees
