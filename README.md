@@ -355,7 +355,7 @@ A data structure said to be linear if its elements are stored in a sequential or
     The first node is pointed to by the *head* and the last node is pointed to by the *tail* or *rear*.
 
     <figure>
-    <img src="latex/Singly-linked-list.svg" alt="Linked List" style="width:100%">
+    <img src="latex/Singly-linked-list.svg" alt="Linked List" style="width:100%;background-color: white;">
     <figcaption align="center">
     <strong>Singly-linked list</strong>
     </figcaption>
@@ -368,7 +368,7 @@ A data structure said to be linear if its elements are stored in a sequential or
     To add a new node to the list, we first create a pointer to the new node. We then set the head pointer to point to the new node and the tail pointer to point to the node after the new node. The new node is now linked into the list. To remove a node from the list, we first find the head pointer. We then set the head pointer to point to the node after the node to be removed and the tail pointer to point to the node before the node to be removed. The node to be removed is now removed from the list.
 
     <figure>
-    <img src="latex/Doubly-linked-list.svg" alt="Doubly Linked List" style="width:100%">
+    <img src="latex/Doubly-linked-list.svg" alt="Doubly Linked List" style="width:100%;background-color: white;">
     <figcaption align="center">
     <strong>Doubly-linked list</strong>
     </figcaption>
@@ -397,7 +397,7 @@ A data structure said to be linear if its elements are stored in a sequential or
     A skip list is a data structure that allows for fast search, insertion, and deletion of data in a sorted list. It is a type of linked list where each node contains a pointer to the next node in the list, as well as a pointer to the node that is two places ahead in the list. The skip list is a variation of the balanced binary search tree, which allows for O(log n) search time, where n is the number of nodes in the list.
     
     <figure>
-    <img src="latex/Skip_list.svg" alt="Skip List" style="width:100%">
+    <img src="latex/Skip_list.svg" alt="Skip List" style="width:100%;background-color: white;">
     <figcaption align="center">
     <strong>Skip List</strong>
     </figcaption>
